@@ -1,0 +1,253 @@
+body{
+    font-family: sans-serif, Arial;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(tło.jpg);
+    
+}
+
+
+header{
+background-color: #968b8b;
+color: rgb(0, 0, 0);
+padding: 5px;
+margin: 0px;
+text-align: center;
+height: 80px;
+
+}
+
+section{
+    background-color: #a59b9b;
+    margin: 0px;
+    padding: 10px;
+    height: 80px;
+    
+}
+
+#home{
+    margin-top: 0px;
+    padding: 10px;
+    height: 120px;
+    background-color: rgb(184, 170, 170);
+}
+#plan{
+    margin-top: 0px;
+    padding: 10px;
+    height: 180px;
+    background-color: rgb(184, 170, 170);
+}
+
+#kontaktowy{
+text-align: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+nav ul{
+    text-align: center;
+    
+}
+
+nav ul li{
+    display:  block;
+    text-align: center;
+    
+}
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #695959;
+    color: #000000;
+    float: left;
+    margin: 2px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 3px 5px 3px gray;
+}
+
+footer{
+    background-color: #3d3535;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+}
+img{
+    margin-top: 40px;
+    margin-left: 50px;
+    max-width: 100%;
+    align-content: center;
+    border-radius: 2%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+
+
+.formularz{
+    padding: 10px;
+    width: 250px;
+    background-color: #746666;
+    border-radius: 20px;
+    
+}
+.kontakt{
+    display: flex;
+    flex-direction: column;
+
+}
+.kontakt textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+.formularzyk{
+    padding-top: 40px;
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+@media screen and (max-width: 750px) {
+
+    body{
+        font-family: sans-serif, Arial;
+        margin: 2px;
+        padding: 0px;
+        background-image: url(tło.jpg);
+        
+    }
+    
+    
+    header{
+    background-color: #968b8b;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    height: 80px;
+    
+    }
+    
+    section{
+        background-color: #a59b9b;
+        margin: 0px;
+        padding: 10px;
+        height: 30%;
+        
+    }
+    
+    #home{
+        margin-top: 0px;
+        padding: 10px;
+        height: 120px;
+        background-color: rgb(184, 170, 170);
+    }
+    #plan{
+        margin-top: 0px;
+        padding: 10px;
+        height: 40%;
+        background-color: rgb(184, 170, 170);
+    }
+    
+    #kontaktowy{
+    text-align: center;
+    }
+    
+    nav{
+        background-color: rgb(255, 255, 255);
+        
+    }
+    
+    
+    
+    nav ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #a59b9b;
+        align-items: center;
+        
+    }
+    
+    nav ul li{
+        display:  block;
+        text-align: center;
+       
+    }
+    nav ul li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #695959;
+        color: #000000;
+        float: left;
+        margin: 2px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 2px;
+        box-shadow: 3px 5px 3px gray;
+    }
+    
+    footer{
+        display: none;
+        background-color: #3d3535;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-style: italic;
+    }
+    img{
+        margin-top: 40px;
+        margin-left: 50px;
+        max-width: 100%;
+        align-content: center;
+        border-radius: 2%;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+    
+    
+    
+    .formularz{
+        padding: 10px;
+        width: 250px;
+        background-color: #746666;
+        border-radius: 20px;
+        
+    }
+    .kontakt{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .kontakt textarea{
+        resize: vertical;
+        min-height: 100px;
+    }
+    .formularzyk{
+        padding-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+}
